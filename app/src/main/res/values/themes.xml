@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.PetSociety" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/pet_teal</item>
+        <item name="colorPrimaryVariant">@color/pet_teal_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/pet_amber</item>
+        <item name="colorSecondaryVariant">@color/pet_amber_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="ShapeAppearance.PetSociety.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+</resources>

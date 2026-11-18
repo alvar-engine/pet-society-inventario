@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pet Society</string>
+
+    <!-- Listado -->
+    <plurals name="products_count">
+        <item quantity="one">%1$d producto</item>
+        <item quantity="many">%1$d productos</item>
+        <item quantity="other">%1$d productos</item>
+    </plurals>
+    <string name="subtitle_count">%1$s en inventario</string>
+    <string name="subtitle_with_low_stock">%1$s · %2$d con stock bajo</string>
+    <string name="empty_title">Tu inventario está vacío</string>
+    <string name="empty_message">Toca + para registrar el primer producto</string>
+    <string name="fab_add">Agregar producto</string>
+    <string name="stock_value">Stock: %1$d</string>
+    <string name="low_stock">Stock bajo</string>
+    <string name="product_photo">Foto del producto</string>
+
+    <!-- Formulario -->
+    <string name="title_new_product">Nuevo producto</string>
+    <string name="title_edit_product">Editar producto</string>
+    <string name="hint_name">Nombre del producto</string>
+    <string name="helper_name">Ej: Bravery Salmón Adulto 12 kg</string>
+    <string name="hint_brand">Marca</string>
+    <string name="helper_brand">Ej: Bravery, Fit Formula, Doc Kennedy</string>
+    <string name="hint_category">Categoría</string>
+    <string name="hint_price">Precio</string>
+    <string name="hint_stock">Stock (unidades)</string>
+    <string name="btn_take_photo">Tomar foto</string>
+    <string name="btn_retake_photo">Cambiar foto</string>
+    <string name="btn_save">Guardar producto</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="btn_delete_product">Eliminar producto</string>
+    <string name="btn_cancel">Cancelar</string>
+
+    <!-- Errores de validación -->
+    <string name="error_required">Campo obligatorio</string>
+    <string name="error_name_length">Debe tener entre %1$d y %2$d caracteres</string>
+    <string name="error_brand_length">Máximo %1$d caracteres</string>
+    <string name="error_category_required">Selecciona una categoría</string>
+    <string name="error_category_invalid">Categoría no válida</string>
+    <string name="error_price_format">Ingresa un precio numérico válido</string>
+    <string name="error_price_range">El precio debe ser mayor que 0</string>
+    <string name="error_stock_format">Ingresa un número entero</string>
+    <string name="error_stock_range">El stock debe estar entre 0 y %1$d</string>
+
+    <!-- Mensajes -->
+    <string name="msg_saved">Producto guardado</string>
+    <string name="msg_save_error">No se pudo guardar el producto</string>
+    <string name="msg_deleted">Producto eliminado</string>
+    <string name="msg_delete_error">No se pudo eliminar el producto</string>
+    <string name="msg_product_not_found">El producto ya no existe</string>
+    <string name="msg_no_camera">No hay una aplicación de cámara disponible</string>
+    <string name="dialog_delete_title">¿Eliminar producto?</string>
+    <string name="dialog_delete_message">Se eliminará \"%1$s\" y su foto. Esta acción no se puede deshacer.</string>
+</resources>

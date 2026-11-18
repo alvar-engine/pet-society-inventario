@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Solo se expone la carpeta interna de fotos de productos -->
+    <files-path
+        name="product_images"
+        path="images/" />
+</paths>

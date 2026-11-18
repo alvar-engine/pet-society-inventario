@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta Pet Society -->
+    <color name="pet_teal">#FF00796B</color>
+    <color name="pet_teal_dark">#FF004D40</color>
+    <color name="pet_amber">#FFFFB300</color>
+    <color name="pet_amber_dark">#FFFF8F00</color>
+    <color name="stock_low">#FFD32F2F</color>
+    <color name="placeholder_bg">#FFE0F2F1</color>
+    <color name="placeholder_icon">#FF80CBC4</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
